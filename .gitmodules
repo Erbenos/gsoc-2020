@@ -1,0 +1,3 @@
+[submodule "grafana-pcp-app"]
+	path = grafana-pcp-app
+	url = https://github.com/Erbenos/grafana-pcp-app.git
