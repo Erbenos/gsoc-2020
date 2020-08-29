@@ -1,5 +1,11 @@
 # Extending Grafana Integration of Performance Co-Pilot - Project Summary
 
+## What is done
+Each goal has its own section with a list of merged PRs. Challenges and learnings included.
+
+## What is left to do
+Stretch goal of Redis backfilling is work in progress as there are some deeper PCP Redis related issues interfering.
+
 ## Improving Metric Search
 
 Since [performancecopilot/grafana-pcp](https://github.com/performancecopilot/grafana-pcp) rewrite was still in progress during early June 2020 to late July 2020, separate repository was created in which I have worked on App plugin part of what would once be merged with [grafana-pcp](https://github.com/performancecopilot/grafana-pcp). This [grafana-pcp-app](https://github.com/Erbenos/grafana-pcp-app/) contains all work done up to until rewrite was finished, after which code was merged with [grafana-pcp](https://github.com/performancecopilot/grafana-pcp) and further work continued in its fork. It also includes [CHANGELOG.md](https://github.com/Erbenos/grafana-pcp-app/blob/master/CHANGELOG.md), which documents what was being worked on to that occasion.
